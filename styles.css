@@ -1,0 +1,137 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background: #4caf50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #4caf50;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+  /* Section titles */
+  section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  section hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  /* Question styles */
+  .question {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: white;
+    transition: border 0.3s ease;
+  }
+  
+  .question.correct {
+    border-color: #4caf50;
+  }
+  
+  .question.incorrect {
+    border-color: #f44336;
+  }
+  
+  .question h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .feedback.correct {
+    color: #4caf50;
+  }
+  
+  .feedback.incorrect {
+    color: #f44336;
+  }
+  
+  /* Button styles */
+  .button-group button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #2196f3;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  .button-group button:hover {
+    background: #1976d2;
+  }
+  
+  .button-group button.correct {
+    background: #4caf50;
+  }
+  
+  .button-group button.incorrect {
+    background: #f44336;
+  }
+  
+  /* Free-response styles */
+  .free-response input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .free-response button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #2196f3;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  .free-response button:hover {
+    background: #1976d2;
+  }
+  
+  .free-response button.correct {
+    background: #4caf50;
+  }
+  
+  .free-response button.incorrect {
+    background: #f44336;
+  }
